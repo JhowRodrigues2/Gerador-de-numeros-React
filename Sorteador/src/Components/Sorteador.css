@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+.main {
+  border: 1px solid black;
+  min-height: 60vh;
+  min-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f6f6f6;
+  color: #00646f;
+  border-radius: 15px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  gap: 30px;
+}
+.topo {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  height: 10vh;
+  display: flex;
+  gap: 3px;
+}
+.number {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.number:focus {
+  outline: none;
+}
+.main button {
+  height: 45px;
+  width: 100%;
+  background-color: #3d9db3;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+button:hover {
+  background-color: #2a545e;
+  transition: 0.5s ease-in-out;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#result {
+  font-size: 31px;
+}
+
+.topo .list {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 25px;
+  color: #fff;
+  line-height: 50px;
+  background: #00646f;
+  display: block;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+}
